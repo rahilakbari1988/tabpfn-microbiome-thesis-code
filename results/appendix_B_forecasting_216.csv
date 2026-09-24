@@ -1,0 +1,217 @@
+Target,k,Input,Model,R2,MAE,n_test,Baseline,Base_R2,Skill
+Temperature,1,16S,TabPFN,0.135,1.797,373,Persistence,0.783,-0.648
+Temperature,1,16S,Random Forest,-0.348,2.259,373,Persistence,0.783,-1.131
+Temperature,1,16S,XGBoost,-0.456,2.322,373,Persistence,0.783,-1.239
+Temperature,1,16S,Lasso,-845.109,15.006,373,Persistence,0.783,-845.892
+Temperature,1,18S,TabPFN,0.074,1.922,373,Persistence,0.783,-0.709
+Temperature,1,18S,Random Forest,-1.114,2.703,373,Persistence,0.783,-1.897
+Temperature,1,18S,XGBoost,-0.993,2.645,373,Persistence,0.783,-1.776
+Temperature,1,18S,Lasso,-708.976,33.718,373,Persistence,0.783,-709.759
+Temperature,1,16S+18S,TabPFN,0.174,1.789,373,Persistence,0.783,-0.609
+Temperature,1,16S+18S,Random Forest,-1.505,2.804,373,Persistence,0.783,-2.288
+Temperature,1,16S+18S,XGBoost,-0.883,2.466,373,Persistence,0.783,-1.666
+Temperature,1,16S+18S,Lasso,-5.487,3.677,373,Persistence,0.783,-6.27
+Temperature,2,16S,TabPFN,-0.166,2.11,357,Persistence,0.692,-0.858
+Temperature,2,16S,Random Forest,-0.594,2.491,357,Persistence,0.692,-1.287
+Temperature,2,16S,XGBoost,-1.621,3.117,357,Persistence,0.692,-2.313
+Temperature,2,16S,Lasso,-6.281,4.837,357,Persistence,0.692,-6.973
+Temperature,2,18S,TabPFN,-0.165,2.188,357,Persistence,0.692,-0.857
+Temperature,2,18S,Random Forest,-1.967,3.275,357,Persistence,0.692,-2.66
+Temperature,2,18S,XGBoost,-1.937,3.386,357,Persistence,0.692,-2.63
+Temperature,2,18S,Lasso,-17.923,5.506,357,Persistence,0.692,-18.615
+Temperature,2,16S+18S,TabPFN,-0.036,2.032,357,Persistence,0.692,-0.728
+Temperature,2,16S+18S,Random Forest,-1.734,3.005,357,Persistence,0.692,-2.426
+Temperature,2,16S+18S,XGBoost,-2.266,3.478,357,Persistence,0.692,-2.958
+Temperature,2,16S+18S,Lasso,-38.226,6.073,357,Persistence,0.692,-38.919
+Temperature,3,16S,TabPFN,-0.007,1.971,341,Persistence,0.555,-0.562
+Temperature,3,16S,Random Forest,-0.323,2.238,341,Persistence,0.555,-0.877
+Temperature,3,16S,XGBoost,-0.985,2.826,341,Persistence,0.555,-1.54
+Temperature,3,16S,Lasso,-5.228,4.357,341,Persistence,0.555,-5.783
+Temperature,3,18S,TabPFN,-0.526,2.498,341,Persistence,0.555,-1.08
+Temperature,3,18S,Random Forest,-2.812,3.916,341,Persistence,0.555,-3.366
+Temperature,3,18S,XGBoost,-3.002,3.979,341,Persistence,0.555,-3.557
+Temperature,3,18S,Lasso,-207.006,14.151,341,Persistence,0.555,-207.561
+Temperature,3,16S+18S,TabPFN,-0.117,2.118,341,Persistence,0.555,-0.672
+Temperature,3,16S+18S,Random Forest,-1.426,2.931,341,Persistence,0.555,-1.98
+Temperature,3,16S+18S,XGBoost,-2.279,3.624,341,Persistence,0.555,-2.834
+Temperature,3,16S+18S,Lasso,-14.569,5.212,341,Persistence,0.555,-15.124
+Salinity,1,16S,TabPFN,0.496,2.446,374,Persistence,0.517,-0.02
+Salinity,1,16S,Random Forest,0.555,2.278,374,Persistence,0.517,0.038
+Salinity,1,16S,XGBoost,0.525,2.411,374,Persistence,0.517,0.008
+Salinity,1,16S,Lasso,-4.32,5.591,374,Persistence,0.517,-4.837
+Salinity,1,18S,TabPFN,0.618,2.107,374,Persistence,0.517,0.101
+Salinity,1,18S,Random Forest,0.534,2.322,374,Persistence,0.517,0.018
+Salinity,1,18S,XGBoost,0.496,2.421,374,Persistence,0.517,-0.021
+Salinity,1,18S,Lasso,-14.63,9.417,374,Persistence,0.517,-15.147
+Salinity,1,16S+18S,TabPFN,0.559,2.293,374,Persistence,0.517,0.042
+Salinity,1,16S+18S,Random Forest,0.557,2.254,374,Persistence,0.517,0.04
+Salinity,1,16S+18S,XGBoost,0.55,2.301,374,Persistence,0.517,0.033
+Salinity,1,16S+18S,Lasso,-38.056,12.28,374,Persistence,0.517,-38.573
+Salinity,2,16S,TabPFN,0.431,2.585,358,Persistence,0.429,0.002
+Salinity,2,16S,Random Forest,0.526,2.374,358,Persistence,0.429,0.097
+Salinity,2,16S,XGBoost,0.43,2.582,358,Persistence,0.429,0.001
+Salinity,2,16S,Lasso,-5.436,5.546,358,Persistence,0.429,-5.865
+Salinity,2,18S,TabPFN,0.589,2.232,358,Persistence,0.429,0.159
+Salinity,2,18S,Random Forest,0.5,2.427,358,Persistence,0.429,0.071
+Salinity,2,18S,XGBoost,0.471,2.518,358,Persistence,0.429,0.042
+Salinity,2,18S,Lasso,-88.593,13.842,358,Persistence,0.429,-89.022
+Salinity,2,16S+18S,TabPFN,0.511,2.392,358,Persistence,0.429,0.082
+Salinity,2,16S+18S,Random Forest,0.538,2.349,358,Persistence,0.429,0.109
+Salinity,2,16S+18S,XGBoost,0.411,2.561,358,Persistence,0.429,-0.018
+Salinity,2,16S+18S,Lasso,-38.052,12.401,358,Persistence,0.429,-38.481
+Salinity,3,16S,TabPFN,0.527,2.345,342,Persistence,0.51,0.017
+Salinity,3,16S,Random Forest,0.53,2.378,342,Persistence,0.51,0.02
+Salinity,3,16S,XGBoost,0.51,2.381,342,Persistence,0.51,-0.0
+Salinity,3,16S,Lasso,-10.334,8.887,342,Persistence,0.51,-10.845
+Salinity,3,18S,TabPFN,0.623,2.133,342,Persistence,0.51,0.113
+Salinity,3,18S,Random Forest,0.552,2.272,342,Persistence,0.51,0.042
+Salinity,3,18S,XGBoost,0.464,2.453,342,Persistence,0.51,-0.046
+Salinity,3,18S,Lasso,-71.975,17.893,342,Persistence,0.51,-72.485
+Salinity,3,16S+18S,TabPFN,0.571,2.261,342,Persistence,0.51,0.061
+Salinity,3,16S+18S,Random Forest,0.54,2.365,342,Persistence,0.51,0.03
+Salinity,3,16S+18S,XGBoost,0.549,2.366,342,Persistence,0.51,0.039
+Salinity,3,16S+18S,Lasso,-89.583,17.71,342,Persistence,0.51,-90.094
+Chlorophyll a,1,16S,TabPFN,0.539,0.457,391,Site mean,0.594,-0.055
+Chlorophyll a,1,16S,Random Forest,0.556,0.464,391,Site mean,0.594,-0.038
+Chlorophyll a,1,16S,XGBoost,0.493,0.49,391,Site mean,0.594,-0.101
+Chlorophyll a,1,16S,Lasso,0.118,0.636,391,Site mean,0.594,-0.476
+Chlorophyll a,1,18S,TabPFN,0.564,0.448,391,Site mean,0.594,-0.029
+Chlorophyll a,1,18S,Random Forest,0.469,0.493,391,Site mean,0.594,-0.125
+Chlorophyll a,1,18S,XGBoost,0.459,0.499,391,Site mean,0.594,-0.135
+Chlorophyll a,1,18S,Lasso,-1.738,0.891,391,Site mean,0.594,-2.332
+Chlorophyll a,1,16S+18S,TabPFN,0.562,0.444,391,Site mean,0.594,-0.032
+Chlorophyll a,1,16S+18S,Random Forest,0.564,0.456,391,Site mean,0.594,-0.03
+Chlorophyll a,1,16S+18S,XGBoost,0.569,0.444,391,Site mean,0.594,-0.025
+Chlorophyll a,1,16S+18S,Lasso,-1.368,0.878,391,Site mean,0.594,-1.962
+Chlorophyll a,2,16S,TabPFN,0.465,0.508,378,Site mean,0.608,-0.143
+Chlorophyll a,2,16S,Random Forest,0.519,0.485,378,Site mean,0.608,-0.088
+Chlorophyll a,2,16S,XGBoost,0.499,0.499,378,Site mean,0.608,-0.109
+Chlorophyll a,2,16S,Lasso,0.022,0.64,378,Site mean,0.608,-0.586
+Chlorophyll a,2,18S,TabPFN,0.566,0.455,378,Site mean,0.608,-0.041
+Chlorophyll a,2,18S,Random Forest,0.539,0.483,378,Site mean,0.608,-0.069
+Chlorophyll a,2,18S,XGBoost,0.429,0.527,378,Site mean,0.608,-0.179
+Chlorophyll a,2,18S,Lasso,-2.223,1.035,378,Site mean,0.608,-2.831
+Chlorophyll a,2,16S+18S,TabPFN,0.539,0.466,378,Site mean,0.608,-0.069
+Chlorophyll a,2,16S+18S,Random Forest,0.547,0.469,378,Site mean,0.608,-0.061
+Chlorophyll a,2,16S+18S,XGBoost,0.527,0.478,378,Site mean,0.608,-0.081
+Chlorophyll a,2,16S+18S,Lasso,0.337,0.557,378,Site mean,0.608,-0.271
+Chlorophyll a,3,16S,TabPFN,0.487,0.495,365,Site mean,0.604,-0.117
+Chlorophyll a,3,16S,Random Forest,0.457,0.51,365,Site mean,0.604,-0.147
+Chlorophyll a,3,16S,XGBoost,0.461,0.501,365,Site mean,0.604,-0.142
+Chlorophyll a,3,16S,Lasso,-15.544,1.801,365,Site mean,0.604,-16.148
+Chlorophyll a,3,18S,TabPFN,0.568,0.446,365,Site mean,0.604,-0.036
+Chlorophyll a,3,18S,Random Forest,0.457,0.523,365,Site mean,0.604,-0.147
+Chlorophyll a,3,18S,XGBoost,0.2,0.632,365,Site mean,0.604,-0.404
+Chlorophyll a,3,18S,Lasso,-76.297,2.665,365,Site mean,0.604,-76.901
+Chlorophyll a,3,16S+18S,TabPFN,0.534,0.468,365,Site mean,0.604,-0.07
+Chlorophyll a,3,16S+18S,Random Forest,0.491,0.497,365,Site mean,0.604,-0.113
+Chlorophyll a,3,16S+18S,XGBoost,0.468,0.511,365,Site mean,0.604,-0.135
+Chlorophyll a,3,16S+18S,Lasso,-108.788,3.495,365,Site mean,0.604,-109.391
+Caffeine,1,16S,TabPFN,0.123,13.167,272,Site mean,0.043,0.081
+Caffeine,1,16S,Random Forest,0.157,13.564,272,Site mean,0.043,0.114
+Caffeine,1,16S,XGBoost,-0.195,16.798,272,Site mean,0.043,-0.237
+Caffeine,1,16S,Lasso,0.05,15.085,272,Site mean,0.043,0.008
+Caffeine,1,18S,TabPFN,0.21,11.499,272,Site mean,0.043,0.167
+Caffeine,1,18S,Random Forest,0.2,12.568,272,Site mean,0.043,0.158
+Caffeine,1,18S,XGBoost,0.179,11.948,272,Site mean,0.043,0.137
+Caffeine,1,18S,Lasso,-0.789,18.295,272,Site mean,0.043,-0.832
+Caffeine,1,16S+18S,TabPFN,0.134,13.312,272,Site mean,0.043,0.091
+Caffeine,1,16S+18S,Random Forest,0.171,13.164,272,Site mean,0.043,0.128
+Caffeine,1,16S+18S,XGBoost,0.188,12.527,272,Site mean,0.043,0.145
+Caffeine,1,16S+18S,Lasso,0.074,13.134,272,Site mean,0.043,0.031
+Caffeine,2,16S,TabPFN,0.228,12.291,250,Site mean,0.066,0.163
+Caffeine,2,16S,Random Forest,0.186,13.387,250,Site mean,0.066,0.121
+Caffeine,2,16S,XGBoost,0.166,12.578,250,Site mean,0.066,0.1
+Caffeine,2,16S,Lasso,-1.333,19.183,250,Site mean,0.066,-1.399
+Caffeine,2,18S,TabPFN,0.259,11.394,250,Site mean,0.066,0.193
+Caffeine,2,18S,Random Forest,0.186,12.767,250,Site mean,0.066,0.12
+Caffeine,2,18S,XGBoost,-0.159,15.005,250,Site mean,0.066,-0.225
+Caffeine,2,18S,Lasso,-11.508,26.264,250,Site mean,0.066,-11.574
+Caffeine,2,16S+18S,TabPFN,0.233,12.288,250,Site mean,0.066,0.168
+Caffeine,2,16S+18S,Random Forest,0.201,12.815,250,Site mean,0.066,0.135
+Caffeine,2,16S+18S,XGBoost,0.105,13.523,250,Site mean,0.066,0.039
+Caffeine,2,16S+18S,Lasso,-4.532,21.343,250,Site mean,0.066,-4.598
+Caffeine,3,16S,TabPFN,0.135,13.347,222,Site mean,0.156,-0.021
+Caffeine,3,16S,Random Forest,0.142,14.066,222,Site mean,0.156,-0.013
+Caffeine,3,16S,XGBoost,-0.152,16.64,222,Site mean,0.156,-0.308
+Caffeine,3,16S,Lasso,-3.527,18.698,222,Site mean,0.156,-3.683
+Caffeine,3,18S,TabPFN,0.225,11.861,222,Site mean,0.156,0.069
+Caffeine,3,18S,Random Forest,0.235,12.486,222,Site mean,0.156,0.08
+Caffeine,3,18S,XGBoost,0.144,13.111,222,Site mean,0.156,-0.012
+Caffeine,3,18S,Lasso,-1221.085,277.817,222,Site mean,0.156,-1221.24
+Caffeine,3,16S+18S,TabPFN,0.176,13.319,222,Site mean,0.156,0.021
+Caffeine,3,16S+18S,Random Forest,0.142,13.661,222,Site mean,0.156,-0.014
+Caffeine,3,16S+18S,XGBoost,-0.003,14.056,222,Site mean,0.156,-0.159
+Caffeine,3,16S+18S,Lasso,-1080.59,259.805,222,Site mean,0.156,-1080.746
+Metoprolol,1,16S,TabPFN,0.021,12.329,276,Site mean,0.144,-0.122
+Metoprolol,1,16S,Random Forest,0.157,14.018,276,Site mean,0.144,0.013
+Metoprolol,1,16S,XGBoost,0.133,13.389,276,Site mean,0.144,-0.011
+Metoprolol,1,16S,Lasso,0.164,15.484,276,Site mean,0.144,0.02
+Metoprolol,1,18S,TabPFN,0.079,11.932,276,Site mean,0.144,-0.065
+Metoprolol,1,18S,Random Forest,0.105,13.69,276,Site mean,0.144,-0.038
+Metoprolol,1,18S,XGBoost,0.114,14.283,276,Site mean,0.144,-0.03
+Metoprolol,1,18S,Lasso,0.045,17.222,276,Site mean,0.144,-0.099
+Metoprolol,1,16S+18S,TabPFN,0.064,12.161,276,Site mean,0.144,-0.08
+Metoprolol,1,16S+18S,Random Forest,0.147,13.647,276,Site mean,0.144,0.003
+Metoprolol,1,16S+18S,XGBoost,0.163,13.367,276,Site mean,0.144,0.019
+Metoprolol,1,16S+18S,Lasso,0.122,15.441,276,Site mean,0.144,-0.021
+Metoprolol,2,16S,TabPFN,0.075,11.986,252,Site mean,0.119,-0.044
+Metoprolol,2,16S,Random Forest,0.161,14.206,252,Site mean,0.119,0.041
+Metoprolol,2,16S,XGBoost,0.102,15.565,252,Site mean,0.119,-0.017
+Metoprolol,2,16S,Lasso,0.066,17.735,252,Site mean,0.119,-0.053
+Metoprolol,2,18S,TabPFN,0.113,12.548,252,Site mean,0.119,-0.007
+Metoprolol,2,18S,Random Forest,0.118,13.993,252,Site mean,0.119,-0.001
+Metoprolol,2,18S,XGBoost,0.04,14.118,252,Site mean,0.119,-0.079
+Metoprolol,2,18S,Lasso,0.081,16.495,252,Site mean,0.119,-0.038
+Metoprolol,2,16S+18S,TabPFN,0.101,11.868,252,Site mean,0.119,-0.018
+Metoprolol,2,16S+18S,Random Forest,0.142,13.96,252,Site mean,0.119,0.023
+Metoprolol,2,16S+18S,XGBoost,0.099,14.325,252,Site mean,0.119,-0.02
+Metoprolol,2,16S+18S,Lasso,0.133,15.668,252,Site mean,0.119,0.014
+Metoprolol,3,16S,TabPFN,0.033,13.261,224,Persistence,0.346,-0.313
+Metoprolol,3,16S,Random Forest,0.107,15.151,224,Persistence,0.346,-0.239
+Metoprolol,3,16S,XGBoost,0.073,15.72,224,Persistence,0.346,-0.272
+Metoprolol,3,16S,Lasso,0.1,17.592,224,Persistence,0.346,-0.246
+Metoprolol,3,18S,TabPFN,0.072,13.298,224,Persistence,0.346,-0.273
+Metoprolol,3,18S,Random Forest,0.092,15.189,224,Persistence,0.346,-0.253
+Metoprolol,3,18S,XGBoost,0.062,14.324,224,Persistence,0.346,-0.283
+Metoprolol,3,18S,Lasso,0.037,17.857,224,Persistence,0.346,-0.309
+Metoprolol,3,16S+18S,TabPFN,0.021,13.034,224,Persistence,0.346,-0.325
+Metoprolol,3,16S+18S,Random Forest,0.107,15.045,224,Persistence,0.346,-0.238
+Metoprolol,3,16S+18S,XGBoost,0.11,15.107,224,Persistence,0.346,-0.236
+Metoprolol,3,16S+18S,Lasso,0.099,17.078,224,Persistence,0.346,-0.246
+Atrazine,1,16S,TabPFN,0.004,0.101,272,Global mean,-0.042,0.046
+Atrazine,1,16S,Random Forest,-0.03,0.136,272,Global mean,-0.042,0.012
+Atrazine,1,16S,XGBoost,-0.028,0.159,272,Global mean,-0.042,0.014
+Atrazine,1,16S,Lasso,-0.022,0.171,272,Global mean,-0.042,0.02
+Atrazine,1,18S,TabPFN,0.014,0.105,272,Global mean,-0.042,0.056
+Atrazine,1,18S,Random Forest,-0.111,0.194,272,Global mean,-0.042,-0.069
+Atrazine,1,18S,XGBoost,-0.626,0.179,272,Global mean,-0.042,-0.584
+Atrazine,1,18S,Lasso,-0.342,0.153,272,Global mean,-0.042,-0.3
+Atrazine,1,16S+18S,TabPFN,0.018,0.107,272,Global mean,-0.042,0.06
+Atrazine,1,16S+18S,Random Forest,-0.068,0.163,272,Global mean,-0.042,-0.026
+Atrazine,1,16S+18S,XGBoost,-0.377,0.155,272,Global mean,-0.042,-0.335
+Atrazine,1,16S+18S,Lasso,-0.146,0.118,272,Global mean,-0.042,-0.104
+Atrazine,2,16S,TabPFN,0.007,0.109,250,Global mean,-0.034,0.041
+Atrazine,2,16S,Random Forest,-0.025,0.236,250,Global mean,-0.034,0.009
+Atrazine,2,16S,XGBoost,-0.285,0.287,250,Global mean,-0.034,-0.251
+Atrazine,2,16S,Lasso,-0.097,0.185,250,Global mean,-0.034,-0.063
+Atrazine,2,18S,TabPFN,-0.001,0.129,250,Global mean,-0.034,0.033
+Atrazine,2,18S,Random Forest,0.031,0.179,250,Global mean,-0.034,0.065
+Atrazine,2,18S,XGBoost,-0.037,0.122,250,Global mean,-0.034,-0.003
+Atrazine,2,18S,Lasso,-0.048,0.247,250,Global mean,-0.034,-0.014
+Atrazine,2,16S+18S,TabPFN,-0.001,0.107,250,Global mean,-0.034,0.034
+Atrazine,2,16S+18S,Random Forest,0.023,0.168,250,Global mean,-0.034,0.057
+Atrazine,2,16S+18S,XGBoost,0.017,0.128,250,Global mean,-0.034,0.051
+Atrazine,2,16S+18S,Lasso,-0.036,0.214,250,Global mean,-0.034,-0.002
+Atrazine,3,16S,TabPFN,0.009,0.122,222,Global mean,-0.038,0.047
+Atrazine,3,16S,Random Forest,-0.038,0.17,222,Global mean,-0.038,0.0
+Atrazine,3,16S,XGBoost,-0.224,0.182,222,Global mean,-0.038,-0.186
+Atrazine,3,16S,Lasso,0.007,0.155,222,Global mean,-0.038,0.045
+Atrazine,3,18S,TabPFN,-0.003,0.135,222,Global mean,-0.038,0.035
+Atrazine,3,18S,Random Forest,-0.053,0.25,222,Global mean,-0.038,-0.015
+Atrazine,3,18S,XGBoost,-0.148,0.22,222,Global mean,-0.038,-0.11
+Atrazine,3,18S,Lasso,-0.463,0.366,222,Global mean,-0.038,-0.424
+Atrazine,3,16S+18S,TabPFN,0.005,0.113,222,Global mean,-0.038,0.043
+Atrazine,3,16S+18S,Random Forest,-0.003,0.195,222,Global mean,-0.038,0.035
+Atrazine,3,16S+18S,XGBoost,-0.078,0.17,222,Global mean,-0.038,-0.04
+Atrazine,3,16S+18S,Lasso,-0.539,0.352,222,Global mean,-0.038,-0.501
